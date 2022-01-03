@@ -1,11 +1,18 @@
-import './App.css';
+import React from 'react';
+//Components
+import { BrowserRouter as Router, Routes } from 'react-router-dom';
+
+//Styling
+import './css/App.css';
 
 function App() {
   return (
-    <div className="App">
-      
-    </div>
-  );
+          <Router basename={window.location.pathname || ''}>
+              <Routes>
+                
+              </Routes>
+        </Router>
+    );
 }
 
 export default App;
