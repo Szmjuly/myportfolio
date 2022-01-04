@@ -20,7 +20,8 @@ function HomePage(){
                 <div className='home__page__top'>
                     <HomePageHeaderInfo src={picture} myName={"Solomon Z. Markowitz"} school={"Florida Atlantic University"} degree={"Bachlor of Computer Engineering"}
                                         website1={"LinkedIn"} link1={"https://www.linkedin.com/in/solomon-markowitz-13931b220/"}
-                                        website2={"Github"} link2={"https://github.com/Szmjuly"} />
+                                        website2={"Github"} link2={"https://github.com/Szmjuly"}
+                                        website3={"Portfolio"} link3={"https://szmjuly.github.io/myportfolio/"} />
                 </div>
 
                 <hr style={{width: "80%"}}/>
