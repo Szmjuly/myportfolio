@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/SzmJuly.github.io/myportfolio/static/css/main.70e8706e.css",
-    "main.js": "/SzmJuly.github.io/myportfolio/static/js/main.3caf9aae.js",
-    "static/media/Solomon_Markowitz_Pic.JPG": "/SzmJuly.github.io/myportfolio/static/media/Solomon_Markowitz_Pic.261d7d3997e1f90e81da.JPG",
-    "index.html": "/SzmJuly.github.io/myportfolio/index.html",
-    "main.70e8706e.css.map": "/SzmJuly.github.io/myportfolio/static/css/main.70e8706e.css.map",
-    "main.3caf9aae.js.map": "/SzmJuly.github.io/myportfolio/static/js/main.3caf9aae.js.map"
+    "main.css": "/myportfolio/static/css/main.70e8706e.css",
+    "main.js": "/myportfolio/static/js/main.09fcb18f.js",
+    "static/media/Solomon_Markowitz_Pic.JPG": "/myportfolio/static/media/Solomon_Markowitz_Pic.261d7d3997e1f90e81da.JPG",
+    "index.html": "/myportfolio/index.html",
+    "main.70e8706e.css.map": "/myportfolio/static/css/main.70e8706e.css.map",
+    "main.09fcb18f.js.map": "/myportfolio/static/js/main.09fcb18f.js.map"
   },
   "entrypoints": [
     "static/css/main.70e8706e.css",
-    "static/js/main.3caf9aae.js"
+    "static/js/main.09fcb18f.js"
   ]
 }
