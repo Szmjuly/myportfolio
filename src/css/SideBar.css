@@ -1,0 +1,5 @@
+.sidebar {
+    flex: .33;
+    padding: 25px 15px;
+    background-color: transparent;
+}

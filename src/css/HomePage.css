@@ -1,0 +1,21 @@
+.home_page{
+    background-color: lightgray;
+    height: 100vh;
+    
+}
+
+.home__page__body{
+    margin-top: 15px;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    flex: .5;
+    align-items: center;
+}
+
+.home__page__middle{
+    position: relative;
+    width: 60%;
+    margin-top: 5px;
+    flex-direction: row;
+}
