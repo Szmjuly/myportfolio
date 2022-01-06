@@ -8,7 +8,7 @@ import "../css/HomePageHeaderInfo.css"
 
 export default function HomePageHeaderInfo({src, myName, school, degree, website1, link1, website2, link2, website3, link3}) {
     return (<div className='home__page__info'>
-                <Avatar src={src} style={{width: 400,height: 400}}/>
+                <Avatar src={src} style={{width: 400,height: 400, boxShadow: '0px 5px 7px -4px rgba(0, 0, 0, 0.75)', border: 'solid 1px black'}}/>
                 <h>{myName}</h>
                 <div className='info'>
                     <h1>Degree: {degree}</h1> 
@@ -21,3 +21,4 @@ export default function HomePageHeaderInfo({src, myName, school, degree, website
                     {website3 && <h2>{website3}: <a href={link3}>{link3}</a></h2>}
                 </div>
             </div>);}
+            

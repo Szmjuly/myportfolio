@@ -1,0 +1,118 @@
+.skills{
+    display: flex;
+    flex-direction: column;
+    background-color: #2988bc ;
+}
+
+.skill__list{
+    display: grid;
+    grid-template-columns: 30% 30%;
+    justify-content: center;
+    gap: 15px;
+    height: fit-content;
+    padding-bottom: 25px;
+    border-radius: 25px;
+    
+}
+
+.language__list{
+    display: grid;
+    gap: 15px;
+    justify-content: center;
+    grid: repeat(2, minmax(150px,200px)) / repeat(2, minmax(150px,200px));
+    height: 50vh;
+    padding-bottom: 9px;
+
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    overflow-y: scroll;
+}
+
+.os__list{
+    display: grid;
+    gap: 15px;
+    justify-content: center;
+    grid: repeat(1, minmax(0px,150px)) / repeat(1, minmax(0, 420px));
+    height: 50vh;
+    padding-bottom: 9px;
+
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    overflow-y: scroll;
+}
+
+.software__list{
+    display: grid;
+    gap: 15px;
+    justify-content: center;
+    grid: repeat(2, minmax(150px,200px)) / repeat(2, minmax(150px,200px));
+    height: 50vh;
+    padding-bottom: 9px;
+
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    overflow-y: scroll;
+}
+
+.other__list{
+    display: grid;
+    gap: 15px;
+    justify-content: center;
+    grid: repeat(1, minmax(150px,200px)) / repeat(1, minmax(0px,420px));
+    height: 50vh;
+    padding-bottom: 9px;
+
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    overflow-y: scroll;
+}
+
+.title {
+    font-size: 2.9rem;
+    font-weight: 100;
+    padding: 10px 0;
+    margin-bottom: 20px;
+    text-align: center;
+    border-bottom: solid 1px rgb(255, 255, 255);
+    border-top: solid 1px rgb(255, 255, 255);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    line-height: 1.2;
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+    letter-spacing: 0;
+}
+
+.removeLines{
+    border-bottom: solid 0px rgb(255, 255, 255);
+    border-top: solid 0px rgb(255, 255, 255);
+}
+
+.removeMargins{
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+.removeMarginTop{
+    margin-top: 0%;
+}
+
+.removeMarginRight{
+    margin-left: 0%;
+}
+
+.fixTitle{
+    width: 75%;
+    font-size: 2.8rem;
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.thickLines{
+    border-bottom: solid 3px rgb(255, 255, 255);
+    border-top: solid 3px rgb(255, 255, 255);
+}

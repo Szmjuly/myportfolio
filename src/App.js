@@ -7,16 +7,14 @@ import './App.css';
 
 //Pages
 import HomePage from './pages/HomePage';
-import LandingPage from './pages/LandingPage';
 
 function App() {
   return (
-          <Router basename={window.location.pathname || ''}>
+            <Router basename={window.location.pathname || ''}>
               <Routes>
-                <Route exact path="/" element={<LandingPage />} />
-                <Route exact path="/home" element={<HomePage />} />
+                <Route exact path="/" element={<HomePage />} />
               </Routes>
-        </Router>
+            </Router>
     );
 }
 

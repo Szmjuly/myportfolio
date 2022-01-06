@@ -6,16 +6,33 @@ import "../css/HomePage.css"
 //Components
 import HomePageHeaderInfo from '../components/HomePageHeaderInfo'
 import Projects from '../components/Projects'
-import Languages from '../components/Languages'
+import Skills from '../components/Skills'
+import EnterScreen from '../components/EnterScreen'
 
 //Assets
 import picture from "../assets/Solomon_Markowitz_Pic.JPG"
 
+export default class HomePage extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+          showComponent: true,
+        };
 
-export default 
-function HomePage(){
+        this.hideEnterScreen = this.hideEnterScreen.bind(this);
+      }
+
+      hideEnterScreen(){
+          this.setState({
+              showComponent: false,
+          });
+      }
+
+    render() {
     return (
         <div className='home__page'>
+            {this.state.showComponent && <EnterScreen hideEnterScreen={this.hideEnterScreen} />}
+
             <div className='home__page__body'>
                 <div className='home__page__top'>
                     <HomePageHeaderInfo src={picture} myName={"Solomon Markowitz"} school={"Florida Atlantic University"} degree={"Bachlor of Computer Engineering"}
@@ -24,11 +41,10 @@ function HomePage(){
                 </div>
 
                 <div className='home__page__middle'>
-                    <hr style={{width: "100%"}}/>
+                                        
+                    <Skills />
 
-                    <Languages />
-
-                    <hr style={{width: "100%"}}/>
+                    <h2 class="title">About me</h2>
 
                     <Projects />
 
@@ -43,6 +59,4 @@ function HomePage(){
                 
             </div>
         </div>
-        
-    )
-}
+)}}

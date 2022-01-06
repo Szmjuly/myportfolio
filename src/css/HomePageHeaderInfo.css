@@ -5,6 +5,10 @@
     justify-content: center;
 
     margin-top: 15px;
+    width: 99vmax;
+    /* overflow-x: hidden; */
+    /* box-shadow: 0px 5px 7px -4px rgba(0, 0, 0, 0.75); */
+    background-color: #edeeef;
 }
 
 .home__page__info > h {
