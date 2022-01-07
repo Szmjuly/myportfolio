@@ -1,0 +1,13 @@
+.aboutme{
+    display: flex;
+    flex-direction: column; 
+    width: 100%; 
+    height: fit-content; 
+    background-color: #edeeef; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.aboutme__body{
+    display: flex;
+}

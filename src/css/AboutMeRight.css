@@ -1,0 +1,14 @@
+.aboutme__right > h1{
+    margin-left: 40px;
+    font-size: 42px;
+    margin-top: 40px;
+}
+.aboutme__right > h4{
+    margin-left: 40px;
+    font-weight: 400;
+}
+.aboutme__right > p{
+    margin-left: 40px;
+    font-weight: 200;
+    max-width: 650px;
+}
